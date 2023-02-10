@@ -18,7 +18,9 @@ body {
   border: 10px solid rgb(12, 5, 7);
   padding: 30px;
   border-radius: 5px;
-  background:beige;
+  background: url(../public/background_image.jpg);
+  background-position: -20rem -19.9rem;
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -26,7 +28,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 0px black;
 }
 
 .btn {
@@ -59,7 +61,7 @@ body {
 }
 
 .task {
-  background: #f4f4f4;
+  background: white;
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
@@ -114,5 +116,5 @@ body {
 footer {
   margin-top: 30px;
   text-align: center;
-  background: rgb(220, 220, 195);
+  background: rgba(220, 220, 195, .5);
 }
