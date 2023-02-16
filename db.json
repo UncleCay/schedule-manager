@@ -1,3 +1,16 @@
 {
-  "tasks": []
+  "tasks": [
+    {
+      "text": "Presidential Election",
+      "day": "Saturday 25th 9:00am",
+      "reminder": true,
+      "id": 1
+    },
+    {
+      "text": "Wedding",
+      "day": "Sunday 12:00pm",
+      "reminder": false,
+      "id": 2
+    }
+  ]
 }
